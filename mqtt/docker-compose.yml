@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+
+  mosquitto:
+    hostname: mosquitto
+    image: eclipse-mosquitto
+    ports:
+      - 9001:9001

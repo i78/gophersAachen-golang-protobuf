@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package gophersaah.measurements;
+option java_package = "ac.gophers.domain.measurements";
+option go_package = "gophers.ac/domain/measurements";
+
+message Measurement {
+  uint64 timestamp = 1;
+  repeated SensorReading readings = 2;
+}
+
+message SensorReading {
+  string sensorName = 1;
+  double value = 2;
+}
