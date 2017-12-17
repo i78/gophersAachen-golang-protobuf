@@ -55,7 +55,7 @@ After the MQTT broker is up, just run client and server in any order you prefer.
 
 Running the client:
 ```
-bin/--mqtt.uri="tcp://(your broker ip):1883"
+bin/sensorClient --mqtt.uri="tcp://(your broker ip):1883"
 ```
 
 Expected output:
